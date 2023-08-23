@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+.container > *{
+    /* flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1; */
+    flex: 1 1 100px;
+    border: 5px solid black;
+}

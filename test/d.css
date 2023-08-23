@@ -1,0 +1,42 @@
+.red{
+    background-color: red;
+    order: 2;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color:green;
+    order: 1;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.purple{
+    background-color: purple;
+    order: 3;
+}
+
+.indigo{
+    background-color: indigo;
+    align-self: flex-end;
+}
+
+.container > *{
+    width: 100px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+

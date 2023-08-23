@@ -1,0 +1,12 @@
+.grid-container{
+    height: 100vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1.5fr;
+}
+
+
+.grid-container > *{
+    border: 1px black solid;
+}
